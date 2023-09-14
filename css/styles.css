@@ -16,6 +16,12 @@ p {
   font-size: 2em;
 }
 
+.welcome-font {
+  font-family: "Bad Script", cursive;
+  font-size: 2.5em;
+  padding: 15px;
+}
+
 .title-font {
   font-family: "Bad Script", cursive;
   font-size: 4em;
@@ -72,12 +78,18 @@ p {
   outline: none;
 }
 
+.nav-item {
+  font-size: 1em;
+  font-family: "Inclusive Sans", sans-serif;
+}
+
 .parallax-img {
   background-image: url("../imgs/parallax-img.jpg");
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
   background-repeat: no-repeat;
-  max-height: 600px;
+  height: auto;
 }
 
 .bg-lite-dark {
@@ -91,8 +103,27 @@ p {
   animation-iteration-count: infinite;
 }
 
+@media screen and (width > 500px) {
+  .welcome-font {
+    font-size: 4em;
+    padding: 30px;
+  }
+  .nav-item {
+    font-size: 1.3em;
+  }
+}
+
 @media screen and (width > 1200px) {
   .parallax-img {
     min-height: 600px;
+  }
+
+  .welcome-font {
+    font-size: 5em;
+    padding: 50px;
+  }
+
+  .nav-item {
+    font-size: 1.5em;
   }
 }
