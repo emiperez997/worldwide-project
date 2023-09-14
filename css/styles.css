@@ -90,3 +90,9 @@ p {
   animation-duration: 2s;
   animation-iteration-count: infinite;
 }
+
+@media screen and (width > 1200px) {
+  .parallax-img {
+    min-height: 600px;
+  }
+}
