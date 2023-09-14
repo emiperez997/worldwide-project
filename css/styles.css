@@ -1,0 +1,92 @@
+:root {
+  --color-dark: #1a1f16;
+  --color-lite-dark: rgb(26, 31, 22, 0.8);
+  --color-blue: #29339b;
+  --color-gray: #808d8e;
+  --color-light: #eff7cf;
+}
+
+/* Custom font */
+p {
+  font-family: "Inclusive Sans", sans-serif;
+}
+
+.navbar-title {
+  font-family: "Bad Script", cursive;
+  font-size: 2em;
+}
+
+.title-font {
+  font-family: "Bad Script", cursive;
+  font-size: 4em;
+}
+
+.subtitle-font {
+  font-family: "Bad Script", cursive;
+  font-size: 3em;
+}
+
+/* Clases custom bg */
+.bg-custom-dark {
+  background-color: var(--color-dark);
+}
+
+.bg-custom-blue {
+  background-color: var(--color-blue);
+}
+
+.bg-custom-gray {
+  background-color: var(--color-gray);
+}
+
+.bg-custom-light {
+  background-color: var(--color-light);
+}
+
+/* Custom text  */
+.text-custom-dark {
+  color: var(--color-dark);
+}
+
+.text-custom-blue {
+  color: var(--color-blue);
+}
+
+.text-custom-gray {
+  color: var(--color-gray);
+}
+
+.text-custom-light {
+  color: var(--color-light);
+}
+
+/* Navbar */
+
+.navbar {
+  background-color: var(--color-dark);
+}
+
+.navbar-toggler,
+.navbar-toggler:active {
+  border: none;
+  outline: none;
+}
+
+.parallax-img {
+  background-image: url("../imgs/parallax-img.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-height: 600px;
+}
+
+.bg-lite-dark {
+  background-color: var(--color-lite-dark);
+}
+
+/* Card custom */
+.card-custom:hover {
+  animation: pulse;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
